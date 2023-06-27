@@ -1,0 +1,13 @@
+.todoWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    .todoContainer{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-top: 34px;
+        
+    }
+}

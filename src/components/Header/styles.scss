@@ -1,0 +1,21 @@
+.headerWrapper{
+    background: #fff;
+    box-shadow: 0 -33px 65px #3463f8;
+    .headerContent{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 22px 0px;
+        .headerItem{
+            cursor: pointer;
+            p{
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 20px;
+            }
+        }
+        .active{
+            color: rgb(52, 99, 248);
+        }
+    }
+}
